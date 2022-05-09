@@ -1,9 +1,7 @@
-# individual-project-saketh1909
+# individual-project-rmsteja1
 
-individual-project-saketh1909 created by GitHub Classroom
+individual-project-rmsteja1 created by GitHub Classroom
 
-Name: Saketh Gali 
-ID: 015504853
 
 PROBLEM:
 Design and implement a Java application for the following requirements. You may choose up to 3 design patterns. Include a class diagram for your design. All submissions should be committed to the assigned Github repo. Please include a README file with very clear instructions on how to build and run your application.
@@ -30,18 +28,3 @@ Class implemented using singleton pattern is Inventory Database.An instance of t
 
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 Used this pattern by creating an interface "OrderResultGenerator" which is implemented by "OrderBillGenerator" and "OrderErrorGenerator"
-
-### Class Diagram
-![Alt text](https://github.com/gopinathsjsu/individual-project-saketh1909/blob/master/images/Class%20Diagram.png "Class Diagram")
-
-### Outputs:
-
-#### Receipt Output
-![Alt text](https://github.com/gopinathsjsu/individual-project-saketh1909/blob/master/images/Receipt%20CLI%20Output.png "Class Diagram")
-
-![Alt text](https://github.com/gopinathsjsu/individual-project-saketh1909/blob/master/images/Receipt%20CSV%20File.png "Class Diagram")
-
-#### Error Output
-![Alt text](https://github.com/gopinathsjsu/individual-project-saketh1909/blob/master/images/Error%20CLI%20Output.png "Class Diagram")
-
-![Alt text](https://github.com/gopinathsjsu/individual-project-saketh1909/blob/master/images/Error%20text%20file.png "Class Diagram")
