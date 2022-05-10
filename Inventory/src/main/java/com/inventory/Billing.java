@@ -6,11 +6,11 @@ import java.util.Scanner;
 import com.controller.Orders;
 import com.database.stockDatabase;
 
-public class placingOrder {
+public class Billing {
     public static void main(String args[]) throws IOException {
     	loadDB();
         System.out.println("Hi There! Welcome to Walmart");
-    	placingOrder billObject = new placingOrder();
+    	Billing billObject = new Billing();
         billObject.initOrderInput();
     }
     
