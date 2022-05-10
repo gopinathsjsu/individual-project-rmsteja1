@@ -18,13 +18,22 @@ Steps to run the application:
 * Factory
 
 ## Singleton:
-
-It's a creational design pattern that lets you to assure that a class only has one instance while yet offering global access to that instance.
-Used this pattern to store the data for the entire application. 
-
-Class implemented using singleton pattern is Inventory Database.An instance of the Inventory Database is created and the getter methods is called in the required classes by only one instance and it can be reused.
+Singleton comes under creational pattern, it provides one of the best ways to create an object.In singleton pattern a single class is responsible to create and object. It also ensures that only single objects gets created.This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.This class offeres global access to that instance.Used this pattern to store the data for the entire application. Class implemented using singleton pattern is Stock Database.An instance of the Stock Database is created and the getter methods is called in the required classes by only one instance and it can be reused.
 
 ## Factory Pattern:
+This type of design pattern comes under creational pattern.Factory pattern is one of the most used design patterns in Java.In factory pattern, a new object is created without exposing the logic to the user and refer to the newly created object using a common interface.In factory design pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.Used this pattern by creating an interface "OrderResultCreator" which is implemented by "OrderBillCreator" and "OrderErrorCreator".
 
-Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
-Used this pattern by creating an interface "OrderResultGenerator" which is implemented by "OrderBillGenerator" and "OrderErrorGenerator"
+## Class Diagram:
+![Alt text](https://github.com/gopinathsjsu/individual-project-rmsteja1/blob/main/images/202_individual_project_class_diagram.png "Optional title")
+
+## Input Values:
+![Alt text](https://github.com/gopinathsjsu/individual-project-rmsteja1/blob/main/images/Example_for_valid_input.png "Optional title")
+
+## Output Values:
+![Alt text](https://github.com/gopinathsjsu/individual-project-rmsteja1/blob/main/images/output_result_for_valid_input.png "Optional title")
+
+## Error Handling:
+![Alt text](https://github.com/gopinathsjsu/individual-project-rmsteja1/blob/main/images/Example_for_invalid_input.png "Optional title")
+
+## Error Log:
+![Alt text](https://github.com/gopinathsjsu/individual-project-rmsteja1/blob/main/images/error_log_for_invalid_input.png "Optional title")
